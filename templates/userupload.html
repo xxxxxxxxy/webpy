@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+	<title>Meme · 天宫杯</title>
+	
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/cheatsheet.css" rel="stylesheet">
+<link href="../css/carousel.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Meme</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="http://120.27.231.53:8080/">主页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="static/image.html">迷因集</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link active" href="http://120.27.231.53:8080/userupload">上传迷因</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://120.27.231.53:8080/uploadpage">情感分析</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<p> &nbsp</p>
+<p> &nbsp</p>
+
+<form method="post" action="userupload" enctype="multipart/form-data">
+<div class="mb-3">
+   <input type="file" name="myfile"/>
+</div>
+<button type="submit" class="btn btn-primary"> 提交</button>
+</form>
+<p> &nbsp</p>
+<a href="http://120.27.231.53:8080/static/usermemes/"> 查看已上传迷因 </a>
+</main>
+
+</body>
+</html>
